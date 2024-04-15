@@ -5,7 +5,7 @@ import { getIsPythonInstalled } from './utils/get-is-python-installed';
 
 const pythonMirror = process.env.npm_config_python_mirror
   || process.env.PYTHON_MIRROR
-  || (inGFW.osSync() ? 'https://npm.taobao.org/mirrors/python' : 'https://www.python.org/ftp/python');
+  || (inGFW.osSync() ? 'https://registry.npmmirror.com/-/binary/python/' : 'https://www.python.org/ftp/python');
 
 // To implement
 export const IS_BUILD_TOOLS_INSTALLED = false;

@@ -49,7 +49,7 @@ npm [--python-mirror=''] [--proxy=''] [--debug] [--strict-ssl] [--resume] [--soc
 Optional arguments:
 
 * `--offline-installers`: Path to a folder with already downloaded installers. See
-* `--python-mirror`: Use a given mirror to download Python (like `--python_mirror=https://npm.taobao.org/mirrors/python/`). You can alternatively set a `PYTHON_MIRROR` environment variable.
+* `--python-mirror`: Use a given mirror to download Python (like `--python_mirror=https://registry.npmmirror.com/-/binary/python/`). You can alternatively set a `PYTHON_MIRROR` environment variable.
 * `--proxy`: Use a given proxy. You can alternatively set a `PROXY` environment variable.
 * `--debug`: Be extra verbose in the logger output. Equal to setting the environment variable `DEBUG` to `*`.
 * `--strict-ssl`: Enables "Strict SSL" mode. Defaults to false.
